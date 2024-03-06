@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+header {
+  background:linear-gradient(rgba(0, 0, 255, 0.849),rgba(0, 128, 0, 0.849));
+  height: 100vh;
+}
+.logo{
+  width: 20%;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+.containerr {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+.navbar {
+  position:sticky;
+  width: 100%;
+  z-index: 500;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.menu-items {
+  display: flex;
+}
+
+.menu-items li {
+  list-style: none;
+  padding: 1rem;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: #f0f0e6;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+}
+
+.menu-items a:hover {
+  border-bottom: 2px solid #1cd8d2;;
+  text-decoration: none;
+  color: orange;
+}
+
+.navbar .logo{
+  order: 1;
+  color: #f0f0e6;
+  font-size: 2rem;
+}
+.home_page .intro {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #0ed2ec;
+  width: 100%;
+  text-align: center;
+}
+.intro2{
+  text-align: center;
+}
+.tbl1{
+  width: 30%;
+  height: 90px;
+  margin-left: 42%;
+  overflow-x: auto;
+}
+.th1{
+  text-align:center;
+  padding-right: 4px;
+  width: 40%;
+  height: 35px;
+}
+.td1{
+  text-align: center;
+  padding-left: 2px;
+}
+.about_me{
+  background: linear-gradient(to right,#3498db, #2c3e50);
+}
+.myimg{
+  width: 100%;
+  border-radius: 50%;
+}
+.tbl2{
+  width: 70%;
+  margin-left: 15%;
+  height: 700px;
+  overflow-x: auto;
+}
+.th2{
+padding: 20px;
+}
+.td2{
+  text-align: center;
+}
+
+.my_skill{
+  background:linear-gradient(to bottom,  rgb(45, 45, 159),#317033);
+}
+.tbl3{
+  overflow-x: auto;
+  width: 60%;
+  height: 700px;
+  margin-left: 20%;
+}
+label{
+  color: #7a82fb;
+}
+.my_work{
+  background:linear-gradient(to right,#3498db, #2c3e50) ;
+}
+.tbl4{
+  width: 70%;
+  margin-left: 15%;
+  height: 800px;
+}
+
+.footer{
+  background: #07374a;
+}
+.cont{
+  padding-top: 200px;
+  text-align: center;
+  color: #25b79f;
+}
+.contact_me{
+  text-align: center;
+}
+.social{
+  padding-bottom: 250px;
+}
+</style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+         <div class="navbar-container containerr">
+            <div>
+                <img src="logo.jpg" class="logo">
+
+            </div>
+            
+            <ul class="menu-items">
+                <li><a href="#home"> Home</a></li>
+                <li><a href="#about"> About</a></li>
+                <li> <a href="#skills"> Skills</a></li>
+                <li> <a href="#work"> Works</a></li>
+                <li> <a href="#contact"> Contact</a></li>
+               
+            </ul>
+        </div>
+        </nav>
+        <div class="home_page" id="home">
+            <div class="intro">
+               
+                <table class="tbl1">
+                    <tr class="tr1">
+                        <th class="th1"> <h1 style="text-shadow: 0 0 20px #00fffb, 0 0 40px #0081bc;">Hyy, I'm Monalisha </h1></th>
+                        <td class="td1" rowspan="2"> <img src="profile.jpg" style="width: 70%; border-radius: 50%;"></td>
+                    </tr>
+                    <tr class="tr1"> 
+                        <th>        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </header>
+
+        <main class="main">
+            <section class="about_me" id="about">
+                <table class="tbl2">
+                    <tr class="tr2">
+                        <th class="th2"><h1 style="text-decoration: underline;color: #25b79fe1; font-size: 28px;">About Me</h1><br> 
+                            <p style="color: #e7e7dbe9;">I'm Monalisha, a 20-year-old aspiring programmer hailing from Bhubaneswar, Odisha.
+                                 Currently pursuing a B.Tech in Computer Science and Engineering at the Institute of Technical Education and Research, I'm passionate about coding and finds joy in solving complex problems.
+                                  With a keen interest in technology, i'm dedicated to honing programming skills and making meaningful contributions in the ever-evolving world of computer science.</p></th>
+                        <td class="td2"> <img src="prof.jpg" class="myimg"></td>
+                    </tr>
+                </table>
+            </section>
+            <section class="my_skill" id="skills">
+                <div class="container">
+                    <table class="tbl3" >
+                       <tr>
+                        <th>
+                            <h1 style="text-align: center; text-decoration: underline; color: #25b79f; font-size: 29px;">My Skills</h1>
+                            <label for="java">JAVA</label>
+                            <div class="progress">
+                                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:85%">85%</div>
+                            </div><br>
+                            <label for="python">PYTHON</label>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width:70%">70%</div>
+                            </div><br>
+                            <label for="dsa">DSA</label>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:80%">80%</div>
+                            </div><br>
+                            <label for="html">HTML</label>
+                            <div class="progress">
+                                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:85%">85%</div>
+                            </div><br>
+                            <label for="css">CSS</label>
+                            <div class="progress">
+                                <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated" style="width:75%">75%</div>
+                            </div><br>
+                            <label for="jquery">JQUERY</label>
+                            <div class="progress">
+                                <div class="progress-bar bg-dark progress-bar-striped progress-bar-animated" style="width:70%">70%</div>
+                            </div><br>
+                            <label for="bootstrap">BOOTSTRAP</label>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:75%">75%</div>
+                            </div><br>
+                        </th>
+                       </tr>
+                    </table>
+                </div>
+            </section>
+
+            <section class="my_work" id="work">
+                <table class="tbl4">
+                    <tr> 
+                        <th colspan="2"><h1 style="text-align: center; text-decoration: underline; color: #25b79f; font-size: 29px; ">My Projects</h1></th>
+                    </tr>
+                    <tr class="tr4">
+                        <td style="text-align: center;"> <img src="pro1.png" style="width: 60%;border-radius: 20%;"></td>
+                        <th><h2 style="color: #18db7a;">Time And Space Complexity Calculator</h2><p style="color: white;">By using: Html, Css & Javascript</p></th>
+                    </tr>
+                    <tr> 
+                        <td style="text-align: center;"><img src="pro2.png" style="width: 60%; border-radius: 20%;" > </td>
+                        <th><h2 style="color: #18db7a;">Landing home-page</h2><p style="color: white;">By using: Html & Css</p></th>
+                    </tr>
+                </table>
+
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="contact_me" id="contact">
+                <h1 class="cont">Contact Me </h1>
+
+                <p style="color: whitesmoke;"> Mail:<i class="fas fa-arrow-right"></i> swainmonalisha355@gmail.com</p>
+                <p style="color: cornflowerblue;"> Or Contact Me On:</p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/monalisha-swain-5667a82b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank" style="padding: 7px;"><img src="img5 (1).png" style="width: 40px;"></a>
+                    <a href="#" target="blank" style="padding: 7px;"><img src="github-logo.png" style="width: 40px;"></a>
+                    <a href="https://www.instagram.com/_._mona_lisha_._?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="blank" style="padding: 7px;"><img src="img8.png" style="width: 40px;"></a>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
